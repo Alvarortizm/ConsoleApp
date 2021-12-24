@@ -34,6 +34,8 @@ namespace ConsoleApp
             hilo3.Start(3);
             // Contara el número de caracteres alfanuméricos distintos a n o N que contenga el archivo.
             Mensaje(4);
+            Console.WriteLine("Presione enter para salir.....");
+            Console.ReadLine();
         }
 
         /// <summary>
