@@ -13,7 +13,7 @@ namespace ConsoleApp
 
     public class Program
     {
-
+        //Pass the file path and file name to the StreamWriter constructor(...\ConsoleApp\bin\Debug\net6.0)
         private static StreamWriter sw = new StreamWriter("Test.txt");
         // contador de resultados impresos
         private static int countResult = 0;
@@ -49,7 +49,7 @@ namespace ConsoleApp
                 case 1:
                     try
                     {
-                        //Pass the file path and file name to the StreamReader constructor
+                        //Pass the file path and file name to the StreamReader constructor(...\ConsoleApp\bin\Debug\net6.0)
                         StreamReader sr = new StreamReader("Data.txt");
                         //Read the first line of text
                         String line = sr.ReadLine();
@@ -76,7 +76,7 @@ namespace ConsoleApp
                 case 2:
                     try
                     {
-                        //Pass the file path and file name to the StreamReader constructor
+                        //Pass the file path and file name to the StreamReader constructor(...\ConsoleApp\bin\Debug\net6.0)
                         StreamReader sr = new StreamReader("Data.txt");
                         //Read the first line of text
                         String line = sr.ReadLine();
@@ -101,7 +101,7 @@ namespace ConsoleApp
                 case 3:
                     try
                     {
-                        //Pass the file path and file name to the StreamReader constructor
+                        //Pass the file path and file name to the StreamReader constructor(...\ConsoleApp\bin\Debug\net6.0)
                         StreamReader sr = new StreamReader("Data.txt");
                         //Read the first line of text
                         String line = sr.ReadLine();
@@ -139,7 +139,7 @@ namespace ConsoleApp
                     {
                         String abecedario = "abcdefghijklmopqrstuvwxyz0123456789";
                         int countLetter = 0;
-                        //Pass the file path and file name to the StreamReader constructor
+                        //Pass the file path and file name to the StreamReader constructor(...\ConsoleApp\bin\Debug\net6.0)
                         StreamReader sr = new StreamReader("Data.txt");
                         //Read the first line of text
                         String line = sr.ReadLine();
